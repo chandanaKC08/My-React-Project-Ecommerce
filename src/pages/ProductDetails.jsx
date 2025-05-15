@@ -13,44 +13,49 @@ export default function ProductsDetails() {
             maxWidth: "800px",
             margin: "50px auto",
             padding: "30px",
-            boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
-            borderRadius: "12px",
-            backgroundColor: "#fff",
-            fontFamily: "'Segoe UI', sans-serif",
-            textAlign: "center"
+            boxShadow: "0 0 20px rgba(138, 43, 226, 0.7)",
+            borderRadius: "15px",
+            background: "linear-gradient(135deg, #2d006b, #7f00ff)",
+            fontFamily: "'Orbitron', sans-serif",
+            textAlign: "center",
+            color: "#fff",
         },
         image: {
             maxWidth: "100%",
             height: "auto",
-            borderRadius: "10px",
-            marginBottom: "20px"
+            borderRadius: "12px",
+            marginBottom: "25px",
+            boxShadow: "0 0 12px #00ffe0",
         },
         name: {
-            fontSize: "2rem",
+            fontSize: "2.5rem",
             marginBottom: "10px",
-            color: "#333"
+            color: "#e0b3ff",
+            textShadow: "0 0 5px #b400ff",
         },
         description: {
-            fontSize: "1.1rem",
+            fontSize: "1.2rem",
             marginBottom: "15px",
-            color: "#555"
+            color: "#dcdcdc",
         },
         price: {
-            fontSize: "1.3rem",
+            fontSize: "1.5rem",
             fontWeight: "bold",
-            color: "green",
-            marginBottom: "20px"
+            color: "#39ff14",
+            marginBottom: "25px",
+            textShadow: "0 0 5px #39ff14",
         },
         button: {
-            padding: "12px 25px",
-            fontSize: "1rem",
-            backgroundColor: "#4CAF50",
+            padding: "14px 28px",
+            fontSize: "1.1rem",
+            backgroundColor: "#ff00ff",
             color: "#fff",
             border: "none",
-            borderRadius: "6px",
+            borderRadius: "8px",
             cursor: "pointer",
-            transition: "background 0.3s ease"
-        }
+            boxShadow: "0 0 10px #ff00ff, 0 0 20px #ff00ff",
+            transition: "transform 0.3s ease, box-shadow 0.3s ease",
+        },
     };
 
     return (
@@ -65,6 +70,8 @@ export default function ProductsDetails() {
                     addToCart(product);
                     navigate("/cart");
                 }}
+                onMouseOver={(e) => (e.target.style.transform = "scale(1.05)")}
+                onMouseOut={(e) => (e.target.style.transform = "scale(1)")}
             >
                 🛒 Add to Cart
             </button>

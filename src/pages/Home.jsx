@@ -2,7 +2,6 @@ import { useState } from "react";
 import { products } from "../date/product.js";
 import ProductCard from "../components/ProductCard";
 import { FaStoreAlt } from "react-icons/fa"; // 🎯 Fancy store icon
-// Remove: import "./Home.css"; — if you're switching to inline or scoped styles
 
 export default function Home() {
     const [search, setSearch] = useState("");
@@ -20,7 +19,7 @@ export default function Home() {
         container: {
             padding: "30px",
             fontFamily: "'Segoe UI', sans-serif",
-            backgroundColor: "#f9f9ff",
+            background: "linear-gradient(135deg, #f0f8ff, #add8e6)", // Light blue gradient
             minHeight: "100vh",
             color: "#222"
         },
@@ -65,7 +64,7 @@ export default function Home() {
         <div style={styles.container}>
             <h1 style={styles.heading}>
                 <FaStoreAlt size={30} color="rebeccapurple" />
-                Explore Our Products
+                Explore Our Musical Instruments
             </h1>
             <div style={styles.filters}>
                 <input

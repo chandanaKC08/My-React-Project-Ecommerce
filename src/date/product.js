@@ -1,88 +1,93 @@
-import product1 from "../assets/images/images3.png";
-import product2 from "../assets/images/im1.png";
-import product3 from "../assets/images/im1.png";
-import product4 from "../assets/images/image4.png";
-import product5 from "../assets/images/img5.png";
+import product1 from "../assets/images/ekatar.png";
+import product2 from "../assets/images/peruvian.png";
+import product3 from "../assets/images/flute.png";
+import product4 from "../assets/images/guiter.png";
+import product5 from "../assets/images/zircon.png";
+import product6 from "../assets/images/shutterstock.png";
+import product7 from "../assets/images/oriental.png";
+import product8 from "../assets/images/sarangi.png";
+
+
 
 export const products = [
   {
     id: 1,
-    name: "Velocity Sneakers",
-    category: "Footwear",
-    price: 2499,
-    description: "Sleek running sneakers designed for all-day comfort.",
+    name: "music Sneakers",
+    category: "Instrument",
+    price: 20345,
+    description: "music sneakers designed wooden",
     image: product1,
   },
   {
     id: 2,
-    name: "Urban Tee",
-    category: "Clothing",
-    price: 799,
-    description: "Minimalist cotton t-shirt with a modern streetwear vibe.",
+    name: "musician",
+    category: "creation of sound",
+    price: 40500,
+    description: "Minimalist with a modern instument vibe.",
     image: product2,
   },
   {
     id: 3,
-    name: "EchoPulse Headphones",
-    category: "Electronics",
-    price: 1499,
-    description: "Wireless headphones with deep bass and noise isolation.",
+    name: "flute",
+    category: "memo instrument",
+    price: 38900,
+    description: "Wireless  with deep bass ",
     image: product3,
   },
   {
     id: 4,
-    name: "Frostbite Jacket",
-    category: "Clothing",
-    price: 1299,
+    name: "guiter",
+    category: "oldest",
+    price: 49999,
     description: "Windproof, insulated winter jacket for extreme cold.",
     image: product4,
   },
   {
     id: 5,
-    name: "Shadow Cap",
-    category: "Accessories",
-    price: 499,
-    description: "Stylish black cap with adjustable fit and breathable fabric.",
+    name: "zircon woodn",
+    category: "latest version",
+    price: 42389,
+    description: "Stylish black material with adjustable wooden.",
     image: product5,
   },
   {
     id: 6,
-    name: "Olive Ridge Cap",
-    category: "Accessories",
-    price: 499,
-    description: "Durable olive-green hat perfect for outdoor activities.",
-    image: product5,
+    name: "shutterstock",
+    category: "traditional",
+    price: 56730,
+    description: "Durable olive-brown wooden perfect .",
+    image: product6,
   },
   {
     id: 7,
-    name: "Arctic Shield Jacket",
-    category: "Clothing",
-    price: 1299,
-    description: "High-quality insulated jacket for chilly days.",
-    image: product4,
+    name: "orientalmusic",
+    category: "wooden clove",
+    price: 60999,
+    description: "chinese peoples are used in chilly days.",
+    image: product7,
   },
   {
     id: 8,
-    name: "BassCore Headphones",
-    category: "Electronics",
-    price: 1499,
-    description: "Over-ear headphones built for deep sound and comfort.",
-    image: product3,
+    name: "sarangi",
+    category: "material tool for music",
+    price: 65400,
+    description: "nepali peoples are most used in built for deep sound and comfort.",
+    image: product8,
   },
   {
     id: 9,
     name: "Street Runner Shoes",
     category: "Footwear",
-    price: 799,
+    price: 70100,
     description: "Lightweight shoes built for casual comfort and walking.",
-    image: product2,
+    image: product3,
   },
   {
     id: 10,
     name: "Crimson Kicks",
     category: "Footwear",
-    price: 2499,
+    price: 56700,
     description: "Bold red sneakers that combine style and performance.",
-    image: product1,
+    image: product5,
   },
 ];
